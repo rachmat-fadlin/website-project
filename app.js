@@ -1,4 +1,5 @@
 const PORT = 3000;
+const HOST = '0.0.0.0'
 
 const express = require("express");
 const bodyParser = require("body-parser");
