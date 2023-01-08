@@ -3,6 +3,7 @@ const HOST = '0.0.0.0'
 
 const express = require("express");
 const bodyParser = require("body-parser");
+const ejs = require("ejs");
 
 const app = express();
 

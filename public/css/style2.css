@@ -1,0 +1,134 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body, html {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  margin: 0;
+  padding: 0;
+}
+
+nav a img {
+  display: block;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+}
+
+.links ul {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  justify-content:space-around;
+}
+
+.links ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 19px;
+  padding: 0 20px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #002654;
+}
+
+.links ul li a:hover {
+  text-decoration: none;
+  color: #DFD3C3;
+}
+.social-links{
+  position: relative;
+}
+
+.social-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.social-links ul li {
+  list-style: none;
+  justify-content: space-around;
+  padding: 0 30px;
+}
+
+.social-links ul li img {
+  width: 17px;
+}
+
+.intro {
+  color: #002654;
+  margin: 5% 10% 5% 10%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 90vh;
+}
+
+.sub-title {
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.dot {
+  color: #ED2939;
+}
+
+.quote {
+  width: 50%;
+}
+
+.image-one img {
+  width: 400px;
+}
+
+.image-one figcaption {
+  font-family: 'Jost', sans-serif;
+  font-size: 9px;
+  font-style: italic;
+}
+
+#handcraft {
+  font-size: 12px;
+}
+
+#italic {
+  font-style: italic;
+}

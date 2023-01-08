@@ -1,37 +1,56 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>FADLIN</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<%- include("./partials/header") -%>
 
+</header>
     <header>
       <nav>
         <a href="#"><img src="img/title.png" alt="Logo"></a>
         <div class="links">
           <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
             <li><a href="#">HIRE ME</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main>
-      <section id="first-page">
-        <div class="title">
-          <h1>Hi, I am Rachmat and I am a <br/> Full Stack Web Developer</h1>
-        </div>
-        <div class="image">
-          <img src="../img/main-page2.png" alt="image">
-        </div>
-      </section>
-    </main>
+    <section class="title">
+      <div class="intro">
+        <h1>HELLO<span class="dot">.</span><br>I AM RACHMAT</h1>
+        <br>
+        <h2>A <span class="dot">MERN</span> STACK<br>WEB DEVELOPER</h2>
+      </div>
+      <!-- <div class="image-one">
+        <img src="/img/main-page2.png" alt="Profile Image">
+        <figcaption>Poorly photoshopped profile picture</figcaption>
+      </div> -->
+    </section>
 
-  </body>
-</html>
+    <!-- <section class="sub-title">
+      <div class="quote">
+        <p>All cards on the table, I am a self taught developer
+          who started wide with several frameworks and programming language.
+          Having experienced the pain of trying to understand the general
+          similarity of the logic interaction through their each own syntax,
+          I have finally made a decision to stick with the MERN stack.
+        </p>
+          <br>
+        <p>
+          However, when I am - dishes/laundry - free, I spend my time to learn
+          about some other frameworks such as Flask (Python), Swift (iOS), Flutter (Dart), Grails (Java)
+          and Symphony (PHP). In fact, some of them are worth checking. Kindly go to the portfolio tab or
+          if you are more interested with the code, the you can also visit my GitHub repository and
+          and check them out. Those are the result of my free roam journey and
+          attending some web development bootcamp.
+        </p>
+        <p>
+          Well, with all of that being said. I really wish to know if could use some of my knowledge
+          to earn mutual experience with you. Please do not hesitate to reach me on the contact form. Even better, visit me on
+          my social media account.
+        </p>
+      </div>
+    </section> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<%- include("./partials/footer") -%>
